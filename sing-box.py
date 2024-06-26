@@ -3,7 +3,7 @@ import os
 
 url = "https://sing-box-subscribe-doraemon.vercel.app/config/https://raw.githubusercontent.com/hlewis2000/chromego/main/sub/base64.txt"
 output_folder = "sub"
-output_filename = "sing-box.json"
+output_filename = "sb.json"
 
 # 发送HTTP请求
 response = requests.get(url)
