@@ -97,11 +97,12 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇹🇼 Taiwan_tuic_8",
         "🇺🇸 United States_hy_9",
-        "🇫🇷 France_hysteria_0",
-        "🇫🇷 France_hysteria_1",
-        "🇫🇷 France_hysteria_2",
-        "🇫🇷 France_hysteria_3",
+        "🇺🇸 United States_hysteria_0",
+        "🇺🇸 United States_hysteria_1",
+        "🇺🇸 United States_hysteria_2",
+        "🇺🇸 United States_hysteria_3",
         "🇫🇷 France_hysteria2_0",
         "🇫🇷 France_hysteria2_1",
         "🇫🇷 France_hysteria2_2",
@@ -325,7 +326,7 @@
       "tag": "TaiWan",
       "type": "selector",
       "outbounds": [
-        "Proxy"
+        "🇹🇼 Taiwan_tuic_8"
       ]
     },
     {
@@ -346,17 +347,17 @@
       "tag": "America",
       "type": "selector",
       "outbounds": [
-        "🇺🇸 United States_hy_9"
+        "🇺🇸 United States_hy_9",
+        "🇺🇸 United States_hysteria_0",
+        "🇺🇸 United States_hysteria_1",
+        "🇺🇸 United States_hysteria_2",
+        "🇺🇸 United States_hysteria_3"
       ]
     },
     {
       "tag": "Others",
       "type": "selector",
       "outbounds": [
-        "🇫🇷 France_hysteria_0",
-        "🇫🇷 France_hysteria_1",
-        "🇫🇷 France_hysteria_2",
-        "🇫🇷 France_hysteria_3",
         "🇫🇷 France_hysteria2_0",
         "🇫🇷 France_hysteria2_1",
         "🇫🇷 France_hysteria2_2",
@@ -367,11 +368,12 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
+        "🇹🇼 Taiwan_tuic_8",
         "🇺🇸 United States_hy_9",
-        "🇫🇷 France_hysteria_0",
-        "🇫🇷 France_hysteria_1",
-        "🇫🇷 France_hysteria_2",
-        "🇫🇷 France_hysteria_3",
+        "🇺🇸 United States_hysteria_0",
+        "🇺🇸 United States_hysteria_1",
+        "🇺🇸 United States_hysteria_2",
+        "🇺🇸 United States_hysteria_3",
         "🇫🇷 France_hysteria2_0",
         "🇫🇷 France_hysteria2_1",
         "🇫🇷 France_hysteria2_2",
@@ -394,6 +396,25 @@
       "tag": "block"
     },
     {
+      "tag": "🇹🇼 Taiwan_tuic_8",
+      "type": "tuic",
+      "server": "www2.dtku44.xyz",
+      "server_port": 11224,
+      "uuid": "285524a5-18ae-4bf4-8e89-473dfdc3a212",
+      "password": "dongtaiwang.com",
+      "congestion_control": "bbr",
+      "udp_relay_mode": "native",
+      "zero_rtt_handshake": false,
+      "heartbeat": "10s",
+      "tls": {
+        "enabled": true,
+        "alpn": [
+          "h3"
+        ],
+        "insecure": false
+      }
+    },
+    {
       "tag": "🇺🇸 United States_hy_9",
       "type": "hysteria",
       "server": "23.170.40.77",
@@ -411,10 +432,10 @@
       }
     },
     {
-      "tag": "🇫🇷 France_hysteria_0",
+      "tag": "🇺🇸 United States_hysteria_0",
       "type": "hysteria",
-      "server": "62.210.243.131",
-      "server_port": 18702,
+      "server": "104.192.224.139",
+      "server_port": 42113,
       "up_mbps": 11,
       "down_mbps": 55,
       "auth_str": "dongtaiwang.com",
@@ -428,10 +449,10 @@
       }
     },
     {
-      "tag": "🇫🇷 France_hysteria_1",
+      "tag": "🇺🇸 United States_hysteria_1",
       "type": "hysteria",
-      "server": "62.210.243.131",
-      "server_port": 18702,
+      "server": "104.192.224.139",
+      "server_port": 42113,
       "up_mbps": 11,
       "down_mbps": 55,
       "auth_str": "dongtaiwang.com",
@@ -445,10 +466,10 @@
       }
     },
     {
-      "tag": "🇫🇷 France_hysteria_2",
+      "tag": "🇺🇸 United States_hysteria_2",
       "type": "hysteria",
-      "server": "62.210.243.131",
-      "server_port": 18702,
+      "server": "104.192.224.139",
+      "server_port": 42113,
       "up_mbps": 11,
       "down_mbps": 55,
       "auth_str": "dongtaiwang.com",
@@ -462,10 +483,10 @@
       }
     },
     {
-      "tag": "🇫🇷 France_hysteria_3",
+      "tag": "🇺🇸 United States_hysteria_3",
       "type": "hysteria",
-      "server": "62.210.243.131",
-      "server_port": 18702,
+      "server": "104.192.224.139",
+      "server_port": 42113,
       "up_mbps": 11,
       "down_mbps": 55,
       "auth_str": "dongtaiwang.com",
