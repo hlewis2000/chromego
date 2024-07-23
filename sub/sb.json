@@ -464,14 +464,13 @@
     {
       "tag": "🇺🇸 United States_hysteria2_0",
       "type": "hysteria2",
-      "server": "38.114.103.210",
-      "server_port": 26288,
+      "server": "173.234.31.99",
+      "server_port": 56549,
       "password": "dongtaiwang.com",
       "up_mbps": 10,
       "down_mbps": 100,
       "tls": {
         "enabled": true,
-        "server_name": "www.bing.com",
         "insecure": true,
         "alpn": [
           "h3"
@@ -481,14 +480,13 @@
     {
       "tag": "🇺🇸 United States_hysteria2_1",
       "type": "hysteria2",
-      "server": "108.181.24.39",
-      "server_port": 60714,
+      "server": "173.234.31.99",
+      "server_port": 56549,
       "password": "dongtaiwang.com",
       "up_mbps": 10,
       "down_mbps": 100,
       "tls": {
         "enabled": true,
-        "server_name": "www.bing.com",
         "insecure": true,
         "alpn": [
           "h3"
@@ -498,14 +496,13 @@
     {
       "tag": "🇺🇸 United States_hysteria2_2",
       "type": "hysteria2",
-      "server": "108.181.24.39",
-      "server_port": 60714,
+      "server": "173.234.31.99",
+      "server_port": 56549,
       "password": "dongtaiwang.com",
       "up_mbps": 10,
       "down_mbps": 100,
       "tls": {
         "enabled": true,
-        "server_name": "www.bing.com",
         "insecure": true,
         "alpn": [
           "h3"
@@ -515,14 +512,13 @@
     {
       "tag": "🇺🇸 United States_hysteria2_3",
       "type": "hysteria2",
-      "server": "108.181.24.39",
-      "server_port": 60714,
+      "server": "173.234.31.99",
+      "server_port": 56549,
       "password": "dongtaiwang.com",
       "up_mbps": 10,
       "down_mbps": 100,
       "tls": {
         "enabled": true,
-        "server_name": "www.bing.com",
         "insecure": true,
         "alpn": [
           "h3"
