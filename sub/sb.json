@@ -97,9 +97,12 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇷🇺 Russia_hy_6",
         "🇷🇺 Russia_hy_7",
-        "🇺🇸 United States_hysteria_0",
-        "🇺🇸 United States_hysteria_1",
+        "🇷🇺 Russia_hy_8",
+        "🇷🇺 Russia_hy_9",
+        "🇷🇺 Russia_hysteria_0",
+        "🇷🇺 Russia_hysteria_1",
         "🇷🇺 Russia_hysteria_2",
         "🇷🇺 Russia_hysteria_3",
         "🇺🇸 United States_hysteria2_0",
@@ -346,9 +349,12 @@
       "tag": "America",
       "type": "selector",
       "outbounds": [
+        "🇷🇺 Russia_hy_6",
         "🇷🇺 Russia_hy_7",
-        "🇺🇸 United States_hysteria_0",
-        "🇺🇸 United States_hysteria_1",
+        "🇷🇺 Russia_hy_8",
+        "🇷🇺 Russia_hy_9",
+        "🇷🇺 Russia_hysteria_0",
+        "🇷🇺 Russia_hysteria_1",
         "🇷🇺 Russia_hysteria_2",
         "🇷🇺 Russia_hysteria_3",
         "🇺🇸 United States_hysteria2_0",
@@ -368,9 +374,12 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
+        "🇷🇺 Russia_hy_6",
         "🇷🇺 Russia_hy_7",
-        "🇺🇸 United States_hysteria_0",
-        "🇺🇸 United States_hysteria_1",
+        "🇷🇺 Russia_hy_8",
+        "🇷🇺 Russia_hy_9",
+        "🇷🇺 Russia_hysteria_0",
+        "🇷🇺 Russia_hysteria_1",
         "🇷🇺 Russia_hysteria_2",
         "🇷🇺 Russia_hysteria_3",
         "🇺🇸 United States_hysteria2_0",
@@ -395,6 +404,23 @@
       "tag": "block"
     },
     {
+      "tag": "🇷🇺 Russia_hy_6",
+      "type": "hysteria",
+      "server": "46.29.166.206",
+      "server_port": 100,
+      "up_mbps": 50,
+      "down_mbps": 80,
+      "auth_str": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.bing.com",
+        "insecure": true,
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
       "tag": "🇷🇺 Russia_hy_7",
       "type": "hysteria",
       "server": "46.29.166.206",
@@ -412,10 +438,44 @@
       }
     },
     {
-      "tag": "🇺🇸 United States_hysteria_0",
+      "tag": "🇷🇺 Russia_hy_8",
       "type": "hysteria",
-      "server": "108.181.3.67",
+      "server": "46.29.166.206",
       "server_port": 100,
+      "up_mbps": 50,
+      "down_mbps": 80,
+      "auth_str": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.bing.com",
+        "insecure": true,
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
+      "tag": "🇷🇺 Russia_hy_9",
+      "type": "hysteria",
+      "server": "46.29.166.206",
+      "server_port": 100,
+      "up_mbps": 50,
+      "down_mbps": 80,
+      "auth_str": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.bing.com",
+        "insecure": true,
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
+      "tag": "🇷🇺 Russia_hysteria_0",
+      "type": "hysteria",
+      "server": "46.17.43.223",
+      "server_port": 12311,
       "up_mbps": 11,
       "down_mbps": 55,
       "auth_str": "dongtaiwang.com",
@@ -430,10 +490,10 @@
       "obfs": "dongtaiwang.com"
     },
     {
-      "tag": "🇺🇸 United States_hysteria_1",
+      "tag": "🇷🇺 Russia_hysteria_1",
       "type": "hysteria",
-      "server": "108.181.3.67",
-      "server_port": 100,
+      "server": "46.17.43.223",
+      "server_port": 12311,
       "up_mbps": 11,
       "down_mbps": 55,
       "auth_str": "dongtaiwang.com",
