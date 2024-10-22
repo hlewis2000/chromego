@@ -101,12 +101,12 @@
         "🇷🇺 Russia_vless_7",
         "🇷🇺 Russia_vless_8",
         "🇷🇺 Russia_vless_9",
-        "🇫🇷 France_hysteria_0",
+        "🇷🇺 Russia_hysteria_0",
         "🇷🇺 Russia_hysteria_1",
         "🇷🇺 Russia_hysteria_2",
         "🇷🇺 Russia_hysteria_3",
         "🇷🇺 Russia_hysteria2_0",
-        "🇳🇱 The Netherlands_hysteria2_1",
+        "🇷🇺 Russia_hysteria2_1",
         "🇷🇺 Russia_hysteria2_2",
         "🇷🇺 Russia_hysteria2_3"
       ]
@@ -353,10 +353,12 @@
         "🇷🇺 Russia_vless_7",
         "🇷🇺 Russia_vless_8",
         "🇷🇺 Russia_vless_9",
+        "🇷🇺 Russia_hysteria_0",
         "🇷🇺 Russia_hysteria_1",
         "🇷🇺 Russia_hysteria_2",
         "🇷🇺 Russia_hysteria_3",
         "🇷🇺 Russia_hysteria2_0",
+        "🇷🇺 Russia_hysteria2_1",
         "🇷🇺 Russia_hysteria2_2",
         "🇷🇺 Russia_hysteria2_3"
       ]
@@ -365,8 +367,7 @@
       "tag": "Others",
       "type": "selector",
       "outbounds": [
-        "🇫🇷 France_hysteria_0",
-        "🇳🇱 The Netherlands_hysteria2_1"
+        "Proxy"
       ]
     },
     {
@@ -377,12 +378,12 @@
         "🇷🇺 Russia_vless_7",
         "🇷🇺 Russia_vless_8",
         "🇷🇺 Russia_vless_9",
-        "🇫🇷 France_hysteria_0",
+        "🇷🇺 Russia_hysteria_0",
         "🇷🇺 Russia_hysteria_1",
         "🇷🇺 Russia_hysteria_2",
         "🇷🇺 Russia_hysteria_3",
         "🇷🇺 Russia_hysteria2_0",
-        "🇳🇱 The Netherlands_hysteria2_1",
+        "🇷🇺 Russia_hysteria2_1",
         "🇷🇺 Russia_hysteria2_2",
         "🇷🇺 Russia_hysteria2_3"
       ],
@@ -491,10 +492,10 @@
       }
     },
     {
-      "tag": "🇫🇷 France_hysteria_0",
+      "tag": "🇷🇺 Russia_hysteria_0",
       "type": "hysteria",
-      "server": "62.210.8.63",
-      "server_port": 2345,
+      "server": "46.17.43.223",
+      "server_port": 12311,
       "up_mbps": 11,
       "down_mbps": 55,
       "auth_str": "dongtaiwang.com",
@@ -580,10 +581,10 @@
       }
     },
     {
-      "tag": "🇳🇱 The Netherlands_hysteria2_1",
+      "tag": "🇷🇺 Russia_hysteria2_1",
       "type": "hysteria2",
-      "server": "163.172.220.28",
-      "server_port": 11622,
+      "server": "185.22.152.93",
+      "server_port": 47382,
       "password": "dongtaiwang.com",
       "up_mbps": 10,
       "down_mbps": 100,
