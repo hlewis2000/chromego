@@ -407,8 +407,8 @@
       "tag": "🇷🇺 Russia_vless_6",
       "type": "vless",
       "server": "46.29.166.206",
-      "server_port": 400,
-      "uuid": "ff7b0d54-ecdf-4ff1-be04-f8fd11693ba2",
+      "server_port": 49887,
+      "uuid": "ef6706c2-ac66-4c39-bf16-208effa86922",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
@@ -417,7 +417,7 @@
         "server_name": "www.paypal.com",
         "reality": {
           "enabled": true,
-          "public_key": "bzpKT_Fgsm2k0oAe5SXJmbQN8OxK4AA4NR42yqM-hnI"
+          "public_key": "bBX2IBet-d-kWJ7sb_49zVaem3iTAw5jIwQL4JGDuEg"
         },
         "utls": {
           "enabled": true,
@@ -429,8 +429,8 @@
       "tag": "🇷🇺 Russia_vless_7",
       "type": "vless",
       "server": "46.29.166.206",
-      "server_port": 400,
-      "uuid": "ff7b0d54-ecdf-4ff1-be04-f8fd11693ba2",
+      "server_port": 49887,
+      "uuid": "ef6706c2-ac66-4c39-bf16-208effa86922",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
@@ -439,7 +439,7 @@
         "server_name": "www.paypal.com",
         "reality": {
           "enabled": true,
-          "public_key": "bzpKT_Fgsm2k0oAe5SXJmbQN8OxK4AA4NR42yqM-hnI"
+          "public_key": "bBX2IBet-d-kWJ7sb_49zVaem3iTAw5jIwQL4JGDuEg"
         },
         "utls": {
           "enabled": true,
@@ -451,8 +451,8 @@
       "tag": "🇷🇺 Russia_vless_8",
       "type": "vless",
       "server": "46.29.166.206",
-      "server_port": 400,
-      "uuid": "ff7b0d54-ecdf-4ff1-be04-f8fd11693ba2",
+      "server_port": 49887,
+      "uuid": "ef6706c2-ac66-4c39-bf16-208effa86922",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
@@ -461,7 +461,7 @@
         "server_name": "www.paypal.com",
         "reality": {
           "enabled": true,
-          "public_key": "bzpKT_Fgsm2k0oAe5SXJmbQN8OxK4AA4NR42yqM-hnI"
+          "public_key": "bBX2IBet-d-kWJ7sb_49zVaem3iTAw5jIwQL4JGDuEg"
         },
         "utls": {
           "enabled": true,
@@ -473,8 +473,8 @@
       "tag": "🇷🇺 Russia_vless_9",
       "type": "vless",
       "server": "46.29.166.206",
-      "server_port": 400,
-      "uuid": "ff7b0d54-ecdf-4ff1-be04-f8fd11693ba2",
+      "server_port": 49887,
+      "uuid": "ef6706c2-ac66-4c39-bf16-208effa86922",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
@@ -483,7 +483,7 @@
         "server_name": "www.paypal.com",
         "reality": {
           "enabled": true,
-          "public_key": "bzpKT_Fgsm2k0oAe5SXJmbQN8OxK4AA4NR42yqM-hnI"
+          "public_key": "bBX2IBet-d-kWJ7sb_49zVaem3iTAw5jIwQL4JGDuEg"
         },
         "utls": {
           "enabled": true,
