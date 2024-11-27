@@ -97,10 +97,10 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇷🇺 Russia_vless_6",
-        "🇷🇺 Russia_vless_7",
-        "🇷🇺 Russia_vless_8",
-        "🇷🇺 Russia_vless_9",
+        "🇩🇪 Germany_hy_6",
+        "🇺🇸 United States_hy_7",
+        "🇺🇸 United States_hy_8",
+        "🇩🇪 Germany_hy_9",
         "🇷🇺 Russia_hysteria_0",
         "🇷🇺 Russia_hysteria_1",
         "🇷🇺 Russia_hysteria_2",
@@ -349,10 +349,8 @@
       "tag": "America",
       "type": "selector",
       "outbounds": [
-        "🇷🇺 Russia_vless_6",
-        "🇷🇺 Russia_vless_7",
-        "🇷🇺 Russia_vless_8",
-        "🇷🇺 Russia_vless_9",
+        "🇺🇸 United States_hy_7",
+        "🇺🇸 United States_hy_8",
         "🇷🇺 Russia_hysteria_0",
         "🇷🇺 Russia_hysteria_1",
         "🇷🇺 Russia_hysteria_2",
@@ -367,17 +365,18 @@
       "tag": "Others",
       "type": "selector",
       "outbounds": [
-        "Proxy"
+        "🇩🇪 Germany_hy_6",
+        "🇩🇪 Germany_hy_9"
       ]
     },
     {
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇷🇺 Russia_vless_6",
-        "🇷🇺 Russia_vless_7",
-        "🇷🇺 Russia_vless_8",
-        "🇷🇺 Russia_vless_9",
+        "🇩🇪 Germany_hy_6",
+        "🇺🇸 United States_hy_7",
+        "🇺🇸 United States_hy_8",
+        "🇩🇪 Germany_hy_9",
         "🇷🇺 Russia_hysteria_0",
         "🇷🇺 Russia_hysteria_1",
         "🇷🇺 Russia_hysteria_2",
@@ -404,91 +403,71 @@
       "tag": "block"
     },
     {
-      "tag": "🇷🇺 Russia_vless_6",
-      "type": "vless",
-      "server": "46.29.166.206",
-      "server_port": 49887,
-      "uuid": "ef6706c2-ac66-4c39-bf16-208effa86922",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
+      "tag": "🇩🇪 Germany_hy_6",
+      "type": "hysteria",
+      "server": "146.0.36.114",
+      "server_port": 64914,
+      "up_mbps": 50,
+      "down_mbps": 80,
+      "auth_str": "",
       "tls": {
         "enabled": true,
-        "insecure": false,
-        "server_name": "www.paypal.com",
-        "reality": {
-          "enabled": true,
-          "public_key": "bBX2IBet-d-kWJ7sb_49zVaem3iTAw5jIwQL4JGDuEg"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "server_name": "www.bing.com",
+        "insecure": true,
+        "alpn": [
+          "h3"
+        ]
       }
     },
     {
-      "tag": "🇷🇺 Russia_vless_7",
-      "type": "vless",
-      "server": "46.29.166.206",
-      "server_port": 49887,
-      "uuid": "ef6706c2-ac66-4c39-bf16-208effa86922",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
+      "tag": "🇺🇸 United States_hy_7",
+      "type": "hysteria",
+      "server": "166.1.18.42",
+      "server_port": 37950,
+      "up_mbps": 50,
+      "down_mbps": 80,
+      "auth_str": "",
       "tls": {
         "enabled": true,
-        "insecure": false,
-        "server_name": "www.paypal.com",
-        "reality": {
-          "enabled": true,
-          "public_key": "bBX2IBet-d-kWJ7sb_49zVaem3iTAw5jIwQL4JGDuEg"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "server_name": "bing.com",
+        "insecure": true,
+        "alpn": [
+          "h3"
+        ]
       }
     },
     {
-      "tag": "🇷🇺 Russia_vless_8",
-      "type": "vless",
-      "server": "46.29.166.206",
-      "server_port": 49887,
-      "uuid": "ef6706c2-ac66-4c39-bf16-208effa86922",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
+      "tag": "🇺🇸 United States_hy_8",
+      "type": "hysteria",
+      "server": "166.1.18.42",
+      "server_port": 37950,
+      "up_mbps": 50,
+      "down_mbps": 80,
+      "auth_str": "",
       "tls": {
         "enabled": true,
-        "insecure": false,
-        "server_name": "www.paypal.com",
-        "reality": {
-          "enabled": true,
-          "public_key": "bBX2IBet-d-kWJ7sb_49zVaem3iTAw5jIwQL4JGDuEg"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "server_name": "bing.com",
+        "insecure": true,
+        "alpn": [
+          "h3"
+        ]
       }
     },
     {
-      "tag": "🇷🇺 Russia_vless_9",
-      "type": "vless",
-      "server": "46.29.166.206",
-      "server_port": 49887,
-      "uuid": "ef6706c2-ac66-4c39-bf16-208effa86922",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
+      "tag": "🇩🇪 Germany_hy_9",
+      "type": "hysteria",
+      "server": "146.0.36.114",
+      "server_port": 64914,
+      "up_mbps": 50,
+      "down_mbps": 80,
+      "auth_str": "",
       "tls": {
         "enabled": true,
-        "insecure": false,
-        "server_name": "www.paypal.com",
-        "reality": {
-          "enabled": true,
-          "public_key": "bBX2IBet-d-kWJ7sb_49zVaem3iTAw5jIwQL4JGDuEg"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "server_name": "www.bing.com",
+        "insecure": true,
+        "alpn": [
+          "h3"
+        ]
       }
     },
     {
@@ -566,8 +545,8 @@
     {
       "tag": "🇷🇺 Russia_hysteria2_0",
       "type": "hysteria2",
-      "server": "185.22.152.93",
-      "server_port": 47382,
+      "server": "46.17.41.189",
+      "server_port": 50717,
       "password": "dongtaiwang.com",
       "up_mbps": 10,
       "down_mbps": 100,
@@ -583,8 +562,8 @@
     {
       "tag": "🇷🇺 Russia_hysteria2_1",
       "type": "hysteria2",
-      "server": "185.22.152.93",
-      "server_port": 47382,
+      "server": "46.17.41.189",
+      "server_port": 50717,
       "password": "dongtaiwang.com",
       "up_mbps": 10,
       "down_mbps": 100,
@@ -600,8 +579,8 @@
     {
       "tag": "🇷🇺 Russia_hysteria2_2",
       "type": "hysteria2",
-      "server": "185.22.152.93",
-      "server_port": 47382,
+      "server": "46.17.41.189",
+      "server_port": 50717,
       "password": "dongtaiwang.com",
       "up_mbps": 10,
       "down_mbps": 100,
@@ -617,8 +596,8 @@
     {
       "tag": "🇷🇺 Russia_hysteria2_3",
       "type": "hysteria2",
-      "server": "185.22.152.93",
-      "server_port": 47382,
+      "server": "46.17.41.189",
+      "server_port": 50717,
       "password": "dongtaiwang.com",
       "up_mbps": 10,
       "down_mbps": 100,
