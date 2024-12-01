@@ -98,8 +98,8 @@
         "auto",
         "direct",
         "🇩🇪 Germany_hy_6",
-        "🇺🇸 United States_hy_7",
-        "🇺🇸 United States_hy_8",
+        "🇫🇷 France_hy_7",
+        "🇫🇷 France_hy_8",
         "🇩🇪 Germany_hy_9",
         "🇷🇺 Russia_hysteria_0",
         "🇷🇺 Russia_hysteria_1",
@@ -349,8 +349,6 @@
       "tag": "America",
       "type": "selector",
       "outbounds": [
-        "🇺🇸 United States_hy_7",
-        "🇺🇸 United States_hy_8",
         "🇷🇺 Russia_hysteria_0",
         "🇷🇺 Russia_hysteria_1",
         "🇷🇺 Russia_hysteria_2",
@@ -366,6 +364,8 @@
       "type": "selector",
       "outbounds": [
         "🇩🇪 Germany_hy_6",
+        "🇫🇷 France_hy_7",
+        "🇫🇷 France_hy_8",
         "🇩🇪 Germany_hy_9"
       ]
     },
@@ -374,8 +374,8 @@
       "type": "urltest",
       "outbounds": [
         "🇩🇪 Germany_hy_6",
-        "🇺🇸 United States_hy_7",
-        "🇺🇸 United States_hy_8",
+        "🇫🇷 France_hy_7",
+        "🇫🇷 France_hy_8",
         "🇩🇪 Germany_hy_9",
         "🇷🇺 Russia_hysteria_0",
         "🇷🇺 Russia_hysteria_1",
@@ -420,10 +420,10 @@
       }
     },
     {
-      "tag": "🇺🇸 United States_hy_7",
+      "tag": "🇫🇷 France_hy_7",
       "type": "hysteria",
-      "server": "166.1.18.42",
-      "server_port": 37950,
+      "server": "195.154.184.5",
+      "server_port": 22787,
       "up_mbps": 50,
       "down_mbps": 80,
       "auth_str": "",
@@ -437,10 +437,10 @@
       }
     },
     {
-      "tag": "🇺🇸 United States_hy_8",
+      "tag": "🇫🇷 France_hy_8",
       "type": "hysteria",
-      "server": "166.1.18.42",
-      "server_port": 37950,
+      "server": "195.154.184.5",
+      "server_port": 22787,
       "up_mbps": 50,
       "down_mbps": 80,
       "auth_str": "",
