@@ -97,6 +97,10 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇺🇸 United States_hy2_0",
+        "🇺🇸 United States_hy2_1",
+        "🇺🇸 United States_hy2_2",
+        "🇺🇸 United States_hy2_4",
         "🇩🇪 Germany_hy_6",
         "🇫🇷 France_hy_7",
         "🇫🇷 France_hy_8",
@@ -349,6 +353,10 @@
       "tag": "America",
       "type": "selector",
       "outbounds": [
+        "🇺🇸 United States_hy2_0",
+        "🇺🇸 United States_hy2_1",
+        "🇺🇸 United States_hy2_2",
+        "🇺🇸 United States_hy2_4",
         "🇷🇺 Russia_hysteria_0",
         "🇷🇺 Russia_hysteria_1",
         "🇷🇺 Russia_hysteria_2",
@@ -373,6 +381,10 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
+        "🇺🇸 United States_hy2_0",
+        "🇺🇸 United States_hy2_1",
+        "🇺🇸 United States_hy2_2",
+        "🇺🇸 United States_hy2_4",
         "🇩🇪 Germany_hy_6",
         "🇫🇷 France_hy_7",
         "🇫🇷 France_hy_8",
@@ -401,6 +413,74 @@
     {
       "type": "block",
       "tag": "block"
+    },
+    {
+      "tag": "🇺🇸 United States_hy2_0",
+      "type": "hysteria2",
+      "server": "166.1.190.83",
+      "server_port": 61677,
+      "password": "github.com/Alvin9999",
+      "up_mbps": 10,
+      "down_mbps": 100,
+      "tls": {
+        "enabled": true,
+        "server_name": "www.bing.com",
+        "insecure": true,
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
+      "tag": "🇺🇸 United States_hy2_1",
+      "type": "hysteria2",
+      "server": "108.181.5.131",
+      "server_port": 7329,
+      "password": "dongtaiwang.com",
+      "up_mbps": 10,
+      "down_mbps": 100,
+      "tls": {
+        "enabled": true,
+        "server_name": "www.bing.com",
+        "insecure": true,
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
+      "tag": "🇺🇸 United States_hy2_2",
+      "type": "hysteria2",
+      "server": "166.1.190.83",
+      "server_port": 61677,
+      "password": "github.com/Alvin9999",
+      "up_mbps": 10,
+      "down_mbps": 100,
+      "tls": {
+        "enabled": true,
+        "server_name": "www.bing.com",
+        "insecure": true,
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
+      "tag": "🇺🇸 United States_hy2_4",
+      "type": "hysteria2",
+      "server": "166.1.190.83",
+      "server_port": 61677,
+      "password": "github.com/Alvin9999",
+      "up_mbps": 10,
+      "down_mbps": 100,
+      "tls": {
+        "enabled": true,
+        "server_name": "www.bing.com",
+        "insecure": true,
+        "alpn": [
+          "h3"
+        ]
+      }
     },
     {
       "tag": "🇩🇪 Germany_hy_6",
