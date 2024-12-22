@@ -97,10 +97,10 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇩🇪 Germany_hy_6",
+        "🇺🇸 United States_hy_6",
         "🇫🇷 France_hy_7",
         "🇫🇷 France_hy_8",
-        "🇩🇪 Germany_hy_9",
+        "🇺🇸 United States_hy_9",
         "🇷🇺 Russia_hysteria_0",
         "🇷🇺 Russia_hysteria_1",
         "🇷🇺 Russia_hysteria_2",
@@ -349,6 +349,8 @@
       "tag": "America",
       "type": "selector",
       "outbounds": [
+        "🇺🇸 United States_hy_6",
+        "🇺🇸 United States_hy_9",
         "🇷🇺 Russia_hysteria_0",
         "🇷🇺 Russia_hysteria_1",
         "🇷🇺 Russia_hysteria_2",
@@ -363,20 +365,18 @@
       "tag": "Others",
       "type": "selector",
       "outbounds": [
-        "🇩🇪 Germany_hy_6",
         "🇫🇷 France_hy_7",
-        "🇫🇷 France_hy_8",
-        "🇩🇪 Germany_hy_9"
+        "🇫🇷 France_hy_8"
       ]
     },
     {
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇩🇪 Germany_hy_6",
+        "🇺🇸 United States_hy_6",
         "🇫🇷 France_hy_7",
         "🇫🇷 France_hy_8",
-        "🇩🇪 Germany_hy_9",
+        "🇺🇸 United States_hy_9",
         "🇷🇺 Russia_hysteria_0",
         "🇷🇺 Russia_hysteria_1",
         "🇷🇺 Russia_hysteria_2",
@@ -403,10 +403,10 @@
       "tag": "block"
     },
     {
-      "tag": "🇩🇪 Germany_hy_6",
+      "tag": "🇺🇸 United States_hy_6",
       "type": "hysteria",
-      "server": "146.0.36.114",
-      "server_port": 64914,
+      "server": "208.87.243.151",
+      "server_port": 38670,
       "up_mbps": 50,
       "down_mbps": 80,
       "auth_str": "",
@@ -454,10 +454,10 @@
       }
     },
     {
-      "tag": "🇩🇪 Germany_hy_9",
+      "tag": "🇺🇸 United States_hy_9",
       "type": "hysteria",
-      "server": "146.0.36.114",
-      "server_port": 64914,
+      "server": "208.87.243.151",
+      "server_port": 38670,
       "up_mbps": 50,
       "down_mbps": 80,
       "auth_str": "",
