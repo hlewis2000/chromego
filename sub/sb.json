@@ -108,7 +108,11 @@
         "🇷🇺 Russia_hysteria2_0",
         "🇷🇺 Russia_hysteria2_1",
         "🇷🇺 Russia_hysteria2_2",
-        "🇷🇺 Russia_hysteria2_3"
+        "🇷🇺 Russia_hysteria2_3",
+        "🇹🇼 Taiwan_vless_0",
+        "🇹🇼 Taiwan_vless_1",
+        "🇹🇼 Taiwan_vless_2",
+        "🇹🇼 Taiwan_vless_3"
       ]
     },
     {
@@ -328,7 +332,10 @@
       "tag": "TaiWan",
       "type": "selector",
       "outbounds": [
-        "Proxy"
+        "🇹🇼 Taiwan_vless_0",
+        "🇹🇼 Taiwan_vless_1",
+        "🇹🇼 Taiwan_vless_2",
+        "🇹🇼 Taiwan_vless_3"
       ]
     },
     {
@@ -384,7 +391,11 @@
         "🇷🇺 Russia_hysteria2_0",
         "🇷🇺 Russia_hysteria2_1",
         "🇷🇺 Russia_hysteria2_2",
-        "🇷🇺 Russia_hysteria2_3"
+        "🇷🇺 Russia_hysteria2_3",
+        "🇹🇼 Taiwan_vless_0",
+        "🇹🇼 Taiwan_vless_1",
+        "🇹🇼 Taiwan_vless_2",
+        "🇹🇼 Taiwan_vless_3"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -608,6 +619,98 @@
         "alpn": [
           "h3"
         ]
+      }
+    },
+    {
+      "tag": "🇹🇼 Taiwan_vless_0",
+      "type": "vless",
+      "server": "36.226.252.19",
+      "server_port": 56870,
+      "uuid": "7c4efc45-42f7-48d8-a741-6093cd2886a7",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "www.yahoo.com",
+        "reality": {
+          "enabled": true,
+          "public_key": "9J1xcf0tI7OQ8Z6ULcruIIjsM5AK3nZTXdOK6GIhwmA",
+          "short_id": "239c3cef"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇹🇼 Taiwan_vless_1",
+      "type": "vless",
+      "server": "36.226.252.19",
+      "server_port": 56870,
+      "uuid": "7c4efc45-42f7-48d8-a741-6093cd2886a7",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "www.yahoo.com",
+        "reality": {
+          "enabled": true,
+          "public_key": "9J1xcf0tI7OQ8Z6ULcruIIjsM5AK3nZTXdOK6GIhwmA",
+          "short_id": "239c3cef"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇹🇼 Taiwan_vless_2",
+      "type": "vless",
+      "server": "36.226.252.19",
+      "server_port": 56870,
+      "uuid": "7c4efc45-42f7-48d8-a741-6093cd2886a7",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "www.yahoo.com",
+        "reality": {
+          "enabled": true,
+          "public_key": "9J1xcf0tI7OQ8Z6ULcruIIjsM5AK3nZTXdOK6GIhwmA",
+          "short_id": "239c3cef"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇹🇼 Taiwan_vless_3",
+      "type": "vless",
+      "server": "36.226.252.19",
+      "server_port": 56870,
+      "uuid": "7c4efc45-42f7-48d8-a741-6093cd2886a7",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "www.yahoo.com",
+        "reality": {
+          "enabled": true,
+          "public_key": "9J1xcf0tI7OQ8Z6ULcruIIjsM5AK3nZTXdOK6GIhwmA",
+          "short_id": "239c3cef"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       }
     }
   ],
