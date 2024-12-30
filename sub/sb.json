@@ -624,7 +624,7 @@
     {
       "tag": "🇹🇼 Taiwan_vless_0",
       "type": "vless",
-      "server": "36.226.252.19",
+      "server": "36.226.244.225",
       "server_port": 56870,
       "uuid": "7c4efc45-42f7-48d8-a741-6093cd2886a7",
       "packet_encoding": "xudp",
@@ -647,7 +647,7 @@
     {
       "tag": "🇹🇼 Taiwan_vless_1",
       "type": "vless",
-      "server": "36.226.252.19",
+      "server": "36.226.244.225",
       "server_port": 56870,
       "uuid": "7c4efc45-42f7-48d8-a741-6093cd2886a7",
       "packet_encoding": "xudp",
@@ -670,7 +670,7 @@
     {
       "tag": "🇹🇼 Taiwan_vless_2",
       "type": "vless",
-      "server": "36.226.252.19",
+      "server": "36.226.244.225",
       "server_port": 56870,
       "uuid": "7c4efc45-42f7-48d8-a741-6093cd2886a7",
       "packet_encoding": "xudp",
@@ -693,7 +693,7 @@
     {
       "tag": "🇹🇼 Taiwan_vless_3",
       "type": "vless",
-      "server": "36.226.252.19",
+      "server": "36.226.244.225",
       "server_port": 56870,
       "uuid": "7c4efc45-42f7-48d8-a741-6093cd2886a7",
       "packet_encoding": "xudp",
