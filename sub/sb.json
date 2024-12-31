@@ -568,7 +568,10 @@
         "alpn": [
           "h3"
         ]
-      }
+      },
+      "server_ports": [
+        "30000:40000"
+      ]
     },
     {
       "tag": "🇷🇺 Russia_hysteria2_1",
@@ -585,7 +588,10 @@
         "alpn": [
           "h3"
         ]
-      }
+      },
+      "server_ports": [
+        "30000:40000"
+      ]
     },
     {
       "tag": "🇷🇺 Russia_hysteria2_2",
@@ -602,7 +608,10 @@
         "alpn": [
           "h3"
         ]
-      }
+      },
+      "server_ports": [
+        "30000:40000"
+      ]
     },
     {
       "tag": "🇷🇺 Russia_hysteria2_3",
@@ -619,7 +628,10 @@
         "alpn": [
           "h3"
         ]
-      }
+      },
+      "server_ports": [
+        "30000:40000"
+      ]
     },
     {
       "tag": "🇹🇼 Taiwan_vless_0",
